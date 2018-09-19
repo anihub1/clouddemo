@@ -41,7 +41,7 @@ public class DataSourceConfiguration {
 	@Bean
 	//@ConfigurationProperties("spring.datasource")
 	public DataSource secondDataSource() {
-		System.out.println(" datasource##########################");
+		System.out.println(" datasource########################## ");
 		return  dataSourceProperties().initializeDataSourceBuilder().build();
 	}
 

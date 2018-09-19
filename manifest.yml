@@ -3,6 +3,6 @@ applications:
 - name: clouddemo
   path: target/clouddemo-0.0.1-SNAPSHOT.war
   memory: 1024M
-  instances: 2
+  instances: 1
   random-route: true
   
